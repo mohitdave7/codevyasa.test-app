@@ -1,0 +1,9 @@
+import React from "react";
+export const companyDetails="Fred Smith was an undergraduate at Yale University in 1965. As part of the coursework, he wrote an economics paper exploring the process of transportation of goods in the United States. He found that the shippers relied on transporting large packages across the United States by means of truck or passenger airplanes. Smith thought of a more efficient transportation idea. He wrote a last minute paper on how a company carrying small, essential items by plane could be a much better business. He, however, did not go into details about how to actually run such a company. His paper was graded C. But Smith did not give up on the idea and launched the company in 1971. But within three years of the founding of the company, Federal Express was on the verge of bankruptcy. It was losing over $1 million a month, due to the rising fuel costs. At its zenith, the company had just $5000 to its name. Smith made a final pitch to General Dynamics for more funding. The request was turned down. Most ordinary people would have quit at this point and shut down the company. Not Fred Smith. What he did next is easily the boldest move by the founder of a company. Smith flew to Las Vegas and played Black Jack that weekend with the remaining company funds. Yes, all of the $5000. On Monday, the management of the company had a pleasant surprise lined up. FedEx had $32,000 in its bank account, which was just enough to cover the fuel for their planes and to continue operating a few days more. Soon after, the company was able to raise significant amounts in funding. Today FedEx is a global giant with operations in more than 220 countries and territories and an annual revenue of US $45 billion."
+const About = () => (
+  <div className="site-layout-content">
+   {companyDetails}
+    </div>
+);
+
+export default About;
